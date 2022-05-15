@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/myStyles2.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <!--<div class="gfg">
+      
+      <img src="img/pokedex.png" class="imgPokedex2" alt="pokedex" />
+      <div class="divLine divDisplay2">
+        <img src="img/sadPokemon.jpg" class="imgPrueba2" alt="prueba" />
+      </div>
+    </div>-->
+    <div class="divLine divMain">
+      <img src="img/pokedex.png" class="imgPokedex2" alt="pokedex" />
+      <div class="divLine divDisplay2">
+        <div class="divLine pUno">
+          <p class="pStyle" id="namePokemon"></p>
+        </div>
+
+        <img
+          src="img/mainPokemon.png"
+          class="imgPrueba2"
+          alt="prueba"
+          id="pokeImg"
+        />
+      </div>
+      <div class="divLine1 divContainer2">
+        <input
+          class="inputStyle"
+          type="text"
+          placeholder="Busca un Pokemon"
+          id="pokeName"
+          name="pokeName"
+        />
+      </div>
+      <div class="divLine divContainer3">
+        <button class="buttonChange" onclick="fetchPokemon()">
+          Cambiar Pokemon
+        </button>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script src="js/pokedex.js"></script>
+    <script>
+      function playMusic() {
+        var music = new Audio("musicfile.mp3");
+        music.play();
+      }
+    </script>
+  </footer>
+</html>
